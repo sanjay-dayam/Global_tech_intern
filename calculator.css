@@ -1,0 +1,92 @@
+.calculator {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color:black;
+  }
+  .inputbox{
+    text-align: center;
+    width: 380px;
+  }
+
+  .clearbutton{
+    color: red;
+    font-weight: bold;
+    border-radius: 100px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e2e2e2;
+  }
+  
+  button.operator {
+    background-color: #f1a33c;
+    color: #fff;
+  }
+  
+  button.operator:hover {
+    background-color: #f38918;
+  }
+  
+  button.zero {
+    grid-column: span 2;
+  }
+  
+  button.dot {
+    background-color: #e2e2e2;
+  }
+  
+  button.equal {
+    background-color: #4caf50;
+    color: #fff;
+    grid-row: span 2;
+  }
+  
+  button.equal:hover {
+    background-color: #45a049;
+  }
+  
+  button.clear {
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 100px;
+  }
+  
+  .logicbutton{
+    border-radius: 100px;
+    font-size: 24px;
+    text-align: center;
+  }
+.numerical{
+  border-radius: 100px;
+}
